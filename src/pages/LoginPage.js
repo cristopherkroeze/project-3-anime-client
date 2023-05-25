@@ -5,7 +5,7 @@ import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../context/auth.context";
 
-const API_URL = "http://localhost:4000";
+const API_URL = "https://anime-project-3-server.fly.dev";
 
 
 function LoginPage() {

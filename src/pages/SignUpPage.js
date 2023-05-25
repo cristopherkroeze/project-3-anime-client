@@ -5,7 +5,7 @@ import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import genres from "../animeGenres"
 
-const API_URL = "http://localhost:4000";
+const API_URL = "https://anime-project-3-server.fly.dev";
 
 
 function SignupPage() {

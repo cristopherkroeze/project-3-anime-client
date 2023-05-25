@@ -7,7 +7,7 @@ import genres from "../animeGenres";
 import { AuthContext } from "../context/auth.context";
 import { fileChange } from "../services/fileChange";
 
-const API_URL = "http://localhost:4000";
+const API_URL = "https://anime-project-3-server.fly.dev";
 
 function EditUserPage() {
   const {authenticateUser} = useContext(AuthContext)
