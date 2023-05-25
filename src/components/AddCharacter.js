@@ -6,7 +6,7 @@ import {useNavigate} from "react-router-dom"
 import { AnimeContext } from "../context/anime.context";
 import { fileChange } from "../services/fileChange";
 
-const API_URL = "http://localhost:4000";
+const API_URL = "http://localhost";
 
 function AddCharacter() {
   const navigate = useNavigate();

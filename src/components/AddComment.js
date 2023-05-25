@@ -6,7 +6,7 @@ import {useNavigate} from "react-router-dom"
 import { AuthContext } from "../context/auth.context";
 import { get } from "../services/authService";
 
-const API_URL = "http://localhost:4000";
+const API_URL = "https://anime-project-3-server.fly.dev";
 
 
 function AddComment({animeId, setReload}) {

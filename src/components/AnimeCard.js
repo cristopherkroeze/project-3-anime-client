@@ -29,7 +29,7 @@ function AnimeCard({
   setAnime,
   isProfile
 }) {
-  const API_URL = "http://localhost:4000";
+  const API_URL = "https://anime-project-3-server.fly.dev";
   const { user, setUser } = useContext(AuthContext);
   const navigate = useNavigate();
   let viewWidth = 40

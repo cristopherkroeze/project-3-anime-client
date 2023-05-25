@@ -1,6 +1,6 @@
 import { useState, useEffect, createContext } from "react";
 import axios from "axios";
-const API_URL = "http://localhost:4000";
+const API_URL = "https://anime-project-3-server.fly.dev";
 
 const AnimeContext = createContext();
 

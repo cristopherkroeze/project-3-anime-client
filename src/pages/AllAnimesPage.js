@@ -8,7 +8,7 @@ import {AnimeContext} from "../context/anime.context"
 import { get, post } from "../services/authService";
 import genres from "../animeGenres";
 
-const API_URL = "http://localhost:4000";
+const API_URL = "https://anime-project-3-server.fly.dev";
 
 
 function AllAnimesPage() {

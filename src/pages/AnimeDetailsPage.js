@@ -23,7 +23,6 @@ const AnimeDetailsPage = () => {
   console.log("animeId:", animeId);
   const storedToken = localStorage.getItem("authToken");
 
-  // const API_URL = "http://localhost:4000";
 
   const getAnime = () => {
     get(`/animes/${animeId}`)
