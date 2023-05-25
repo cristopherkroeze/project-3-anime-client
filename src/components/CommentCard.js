@@ -41,7 +41,7 @@ function CommentCard({
         </Card.Body>
         
         <ListGroup className="list-group-flush">
-          <ListGroup.Item>Added By: {addedBy.userName}</ListGroup.Item>
+          {addedBy?.userName && <ListGroup.Item>Added By: {addedBy.userName}</ListGroup.Item>}
           {animeId && <ListGroup.Item><button onClick = {deleteComment}>Delete</button></ListGroup.Item>}
         </ListGroup>
       </Card>
